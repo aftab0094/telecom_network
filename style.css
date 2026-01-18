@@ -1,0 +1,83 @@
+:root {
+	--sage: #EDF1D6;
+	--green: #9DC08B;
+	--nature: #609966;
+	--earth: #40513B;
+}
+
+body {
+	background-color: var(--sage);
+	color: var(--green);
+}
+
+#tbar {
+	position: fixed;
+	background-color: var(--earth);
+	width: 100vw;
+	height: 40px;
+	animation: fadeIn 2s;
+}
+
+#ttile {
+	position: fixed;
+	top: 20px;
+	bottom: 20px;
+	left: 20px;
+	color: var(--sage);
+}
+
+#ch {
+	position: fixed;
+	right: 10px;
+	background-color: var(--sage);
+	color: var(--earth);
+	border: 5px solid var(--earth) 5px;
+}
+
+#title1, #title2 {
+	animation: slide-down 2s;
+	font-size: 25px;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+#subt1 {
+	animation: fadeIn 2s;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+#div1 {
+	bottom: 60px;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	justify-content: center;
+	height: 90vh;
+}
+
+#div2 {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+}
+
+@keyframes slide-down {
+	from {
+		opacity: 0;
+		transform: translateY(-100%);
+	}
+	to {
+		transform: translateY(0%)
+		opacity: 1;
+	}
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
