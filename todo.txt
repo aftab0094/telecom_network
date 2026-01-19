@@ -1,4 +1,7 @@
 todo:
-1. tooltip in index
-2. add arrows
-3. add phones
+1. tooltip in index []
+2. add arrows []
+3. add phones [x]
+4. change tower to png []
+5. make it beautiful []
+6. more chapters (9) [0/9]
