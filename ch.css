@@ -35,39 +35,54 @@ body {
 	border: 5px solid var(--earth) 5px;
 }
 
-#title1, #title2 {
-	animation: slide-down 2s;
-	font-size: 25px;
-	font-family: Arial;
-	font-weight: bold;
-}
-
-#subt1 {
-	animation: fadeIn 2s;
-	font-family: Arial;
-	font-size: 12px;
-}
-
-#div1 {
-	bottom: 60px;
-	display: flex;
-	flex-direction: column;
-	position: absolute;
-	justify-content: center;
-	height: 90vh;
-}
-
-#div2 {
+#nanny {
 	position: fixed;
+	height: 100px;
 	bottom: 10px;
-	right: 10px;
+	right: 150px;
+	z-index: 99;
 }
 
 
-#overlay {
+#girl {
 	position: fixed;
-	height: 100vh;
-	width: 100vh;
+	height: 100px;
+	top: 100px;
+	left: 20px;
+}
+
+
+#house1 {
+	position: fixed;
+	height: 100px;
+	top: 100px;
+	left: 50px;
+}
+
+
+#tower {
+	position: fixed;
+	height: 100px;
+	bottom: 300px;
+	right: 150px;
+}
+
+
+#house2 {
+	position: fixed;
+	height: 100px;
+	bottom: 10px;
+	right: 50px;
+}
+
+#popm {
+	position: fixed;
+	top: 250px;
+	left: 50px;
+	border: 2px solid var(--nature);
+	border-radius: 5px;
+	padding: 5px;
+	background-color: var(--nature);
 }
 
 @keyframes slide-down {

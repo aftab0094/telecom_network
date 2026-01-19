@@ -1,2 +1,4 @@
 todo:
 1. tooltip in index
+2. add arrows
+3. add phones

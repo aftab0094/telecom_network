@@ -1,0 +1,44 @@
+chapter 1:
+(((
+{scene:
+grassland with two towers and two houses, one girl and a women.}
+))) part1
+(((
+This is Mary:[image of a girl][pop up]
+{mary goes to the left home}
+
+This is her Nanny, Sandy:[image of a old women][pop up]
+{Sandy goes to his room}
+))) part 2, do some of the physical model
+(((
+Mary wants Nanny![mary calls her]
+
+{mary, her phone will be shown; the phone will have the calling screen}
+
+The mobile phone chooses the nearest BTS availiable[BTS should have pop up definition if clicked]
+))) part 3
+(((
+when mary talks the voice is converted to electrical signal in her phone.
+
+The phone converts the voice into electrical signal and sends it as electromagnetic wave. This signal travels through
+the air to the nearest BTS[show a arrow from mary's phone to tower.
+
+The nearest cell tower recieves the signal from Mary's phone. The strenth of the signal depends on the distance between
+the phone and the tower. If the signal is weak, call quality reduces.[focus on tower]
+))) part 4
+(((
+The mobile network checks where Nanny is located and routes the call through the core network. The network selects
+the best path to reach Riya's nearest tower.[arrow going to the 2nd tower]
+))) part 5
+(((
+The signal is sent from Nanny's nearest tower to her mobile phone. Her phone converts the digital signal back into
+sound allowing her to hear Mary's voice.[Mary and Nanny's phone will be in 'call accepted screen']
+))) part 6
+(((
+Both of them now can talk and listen at the same time. The network continuously manages the signals to keep the calls
+stable while they speak.
+))) part 7
+(((
+If a user goes too far from the tower , or if the network is congested, the signal becomes weak. This can cause noise,
+delay, or call drop[Mary goes away form tower]
+)))part 8
