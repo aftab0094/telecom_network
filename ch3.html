@@ -5,31 +5,47 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>TELECOM NETWORK DEMO</title>
 	<link rel="stylesheet" href="ch.css">
+	<style>
+		#page {
+			height: 100vh;
+			width: 100vw;
+		}
+	</style>
 </head>
 <body>
-	<div id="tbar">
-		<div id="ttile">Reaching The Cell Tower</div>
-		<div id="ch">CHAPTER 1</div>
-	</div>
-	<div id="canvas">
-		<img id="house1" src="34753.jpg">
-		<img id="house2" src="34753.jpg">
-		<img id="tower" src="tall-communication-tower-against-transparent-background_632498-24596.png">
-		<div id="nan">
-			<img id="nanny" src="female-senior-cartoon-character_1308-120360.jpg">
-			<img id="phone2" src="2936151.png">
+	<div id="page">
+		<div id="tbar">
+			<div id="ttile">Reaching The Cell Tower</div>
+			<div id="ch">CHAPTER 1</div>
 		</div>
-		<div id="gir">
-			<img id="girl" src="pngtree-smiling-school-girl-waving-clipart-illustration-png-image_16297344.png">
-			<img id="phone1" src="2936151.png">
+		<div id="canvas">
+			<img id="house1" src="34753.jpg">
+			<img id="house2" src="34753.jpg">
+			<img id="tower" src="tall-communication-tower-against-transparent-background_632498-24596.png">
+			<div id="nan">
+				<img id="nanny" src="female-senior-cartoon-character_1308-120360.jpg">
+				<img id="phone2" src="2936151.png">
+			</div>
+			<div id="gir">
+				<img id="girl" src="pngtree-smiling-school-girl-waving-clipart-illustration-png-image_16297344.png">
+				<img id="phone1" src="2936151.png">
+			</div>
 		</div>
+		<div id="popm">The mobile phone chooses the nearest<details><summary>BTS</summary>A BTS is the equipment that connects mobile phones to the network. It sends and recieves radio signals and forms the cell tower part of a mobile network, handling communication between your phone and the core network</details> availiable</div>
 	</div>
-	<div id="popm">The mobile phone chooses the nearest <details><summary>BTS</summary>A BTS is the equipment that connects mobile phones to the network. It sends and recieves radio signals and forms the cell tower part of a mobile network, handling communication between your phone and the core network</details> availiable</div>
 	<script>
-		document.addEventListener("click",
-			function() {
+		console.log("a");
+		document.body.addEventListener("click",
+			function(e) {
+				console.log("b");
+				if (e.target.closest("#popm")) {
+					return;
+				};
+				console.log("c");
 				window.location.href = "ch4.html"
-			}, {once: true});
+				console.log("d");
+			});
+		console.log("e");
 	</script>
 </body>
 </html>

@@ -10,7 +10,6 @@ body {
 	color: var(--green);
 }
 
-
 #tbar {
 	position: fixed;
 	background-color: var(--earth);
@@ -133,4 +132,3 @@ body {
 		opacity: 1;
 	}
 }
-
