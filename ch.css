@@ -1,8 +1,8 @@
 :root {
-	--sage: #EDF1D6;
-	--green: #9DC08B;
-	--nature: #609966;
-	--earth: #40513B;
+	--sage: #1e1e2e;
+	--green: #cdd6f4;
+	--nature: #89b4fa;
+	--earth: #181825;
 }
 
 body {
@@ -23,14 +23,14 @@ body {
 	top: 20px;
 	bottom: 20px;
 	left: 20px;
-	color: var(--sage);
+	color: var(--green);
 }
 
 #ch {
 	position: fixed;
 	right: 10px;
-	background-color: var(--sage);
-	color: var(--earth);
+	background-color: var(--nature);
+	color: var(--sage);
 	border: 5px solid var(--earth) 5px;
 }
 
